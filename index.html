@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>New Cars,Used Cars,Luxury Cars</title>
+		<link rel="stylesheet" type="text/css" href="C:\Users\Aryan Kumar Mishra\Desktop\CSS FILES\css\font-awesome.css">
 		<style type="text/css">
 			body{
 				margin:0;
@@ -12,33 +13,66 @@
 				background:white;
 			}
 				#one{
-					height:50px;
+					height:30px;
 					background:white;
 					padding-left:50px;
 				}
 					#one img{
-						height:50px;
+						height:40px;
 						width:70px;
 					}
 					#one1{
-						height:50px;
+						height:30px;
 						width:70px;
 						float:left;
 					}
 					#one2{
-						height:50px;
+						height:30px;
 						width:1350px;
 						float:left;
 					}
 				
 				#two{
-					height:445px;
+					height:500px;
+					background:url('image/new.jpg') no-repeat;
+					background-size:100% 500px;
+					
 				}
-					#two img{
-						height:445px;
-						width:100%;
-					}
+					#two h1{
+						padding-top:300px;
+						padding-left:600px;
+						color:white;
 
+					}
+					#two form{
+						padding-left:450px;
+						
+					}
+					#two form input:nth-child(2){
+						height:50px;
+						width:550px;
+						border-top:3px white solid;
+						border-left:1px white solid;
+						border-bottom:3px white solid;
+					}
+					#two form input:nth-child(3){
+						height:50px;
+						width:100px;
+						background:brown;
+						color:white;
+						margin-left:-40px;
+						border:1px white solid;			
+						border-radius:10px;
+					}
+					#two form select{
+						height:50px;
+						width:70px;
+						margin-right:-4px;
+						background:#E7DDFF;
+						border:1px white solid;
+						border-radius:10px 0 0 10px;
+					}
+				
 				#three{
 					height:50px;
 					background:white;
@@ -368,17 +402,16 @@
 					}
 				
 				#fifteen{
-					height:500px;
-					background:#DF9E87;
+					height:440px;
+					background:brown;
 					padding-left:60px;
 					padding-top:20px;
 					
 				}	
 					#fifteen1{
-						height:460px;
-						width:450px;
+						height:400px;
+						width:350px;
 						background:transparent;
-						margin-right:20px;
 						float:left;
 
 					}
@@ -386,7 +419,7 @@
 							list-style:none;
 						}
 						#fifteen1 ul li:first-child{
-							color:black;
+							font-size:25px;
 						}
 						#fifteen1 ul li{
 							font-size:15px;
@@ -395,7 +428,7 @@
 
 						}
 					#fifteen2{
-						height:460px;
+						height:400px;
 						width:450px;
 						background:transparent;
 						margin-right:20px;
@@ -403,18 +436,68 @@
 						
 
 					}
+						#fifteen2 ul{
+							list-style:none;
+						}
+						#fifteen2 ul li:first-child{
+							font-size:25px;
+						}
+						#fifteen2 ul li{
+							font-size:15px;
+							color:white;
+							padding:5px 25px;
+
+						}
 					
 					#fifteen3{
-						height:460px;
-						width:450px;
+						height:400px;
+						width:550px;
 						background:transparent;
 						float:left;
-
-					}
-					
-					
 						
 
+					}
+						#fifteen31{
+							height:100px;
+							width:200px;
+							background:transparent;
+							float:left;
+							margin:0 20px;
+						}
+						#fifteen32{
+							height:100px;
+							width:200px;
+							background:transparent;
+							float:left;
+							margin:0 20px;
+							
+						}
+						#fifteen33{
+							height:200px;
+							width:200px;
+							background:transparent;
+							float:left;
+							margin:0 20px;
+						}
+							#fifteen33 i{
+								font-size:72px;
+								color:white;
+							}
+					
+						#fifteen34{
+							height:200px;
+							width:200px;
+							background:transparent;
+							float:left;	
+							padding-left:20px;
+
+						}
+							#fifteen34 i{
+								font-size:72px;
+								color:white;
+							}
+
+					
 
 		</style>
 	</head>
@@ -433,7 +516,15 @@
 				</div>
 			</div>
 			<div id="two">
-				<img src="image/img.jpg">
+				<h1>FIND THE RIGHT CAR</h1>
+				<form>
+					<select name="selectone" required>
+						<option value="New">New</option>
+						<option value="Used">Used</option>
+					</select>
+					<input type="search" placeholder="Type to search cars	..">
+					<input type="submit" value="Search">
+				</form>
 			</div>
 			<div id="three">
 				<font size="6" color="brown"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTrending Cars</b></font>
@@ -518,7 +609,7 @@
 				</div>
 			</div>
 			<div id="seven">
-				<font size="6" color="brown"><b>&nbsp&nbspAll Brands</b></font>
+				<font size="6" color="brown"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAll Brands</b></font>
 			</div>
 			<div id="eight">
 				<table>
@@ -666,8 +757,28 @@
 					</ul>
 				</div>
 				<div id="fifteen2">
+					<ul>
+						<li><b>CONNECT WITH US</b></li>
+						<li>Feedback</li>
+						<li>Contact Us</li>
+						<li>Advertise with us</li>
+						<li>Become Partner Dealer</li>		
+					</ul>
 				</div>
 				<div id="fifteen3">
+					<font color="white" size="5px"><h3>Experience Apni Car App</h3></font>	
+					<div id="fifteen31">
+						<img src="image/logo.jpg">
+					</div>
+					<div id="fifteen32">
+						<img src="image/logo1.1.jpg">
+					</div>
+					<div id="fifteen33">
+						<i class="fa fa-twitter"></i>
+					</div>
+					<div id="fifteen34">
+						<i class="fa fa-linkedin-square"></i>
+					</div>
 				</div>
 				
 			</div>
